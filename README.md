@@ -32,7 +32,7 @@ E verifica:
 
 1. `len(sol) == len(graph)`: o caminho tem exatamente $|V|$ vértices.
 2. `len(set(sol)) == len(graph)`: não há vértices repetidos.
-3. Para cada par de vértices consecutivos $(u, v)$ em `sol`, existe uma aresta $u \rarr v$.
+3. Para cada par de vértices consecutivos $(u, v)$ em `sol`, existe uma aresta $u \rightarrow v$.
 
 ```py
 def verify_it(sol, graph):
